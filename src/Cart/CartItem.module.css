@@ -1,0 +1,21 @@
+.cartItem{
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial;
+  border-bottom: 1px solid lightblue;
+  padding: 20px;
+}
+
+div{flex: 1}
+
+
+.information, .buttons{ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.img{ 
+  max-width: 130px;
+object-fit: cover;
+margin-left: 40px;
+}

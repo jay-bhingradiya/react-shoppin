@@ -1,0 +1,9 @@
+
+.items{
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(430px, 1fr) );;
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+.cart-btn{ position: fixed; z-index: 100; right: 20px;top: 20px}
